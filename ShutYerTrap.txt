@@ -1,6 +1,6 @@
 ## Title: ShutYerTrap
 ## Author: remosito
-## Version: 35.7
+## Version: 35.8
 ## APIVersion: 101035
 ## Description: Mute Selected NPCs, Players
 ## DependsOn: LibAddonMenu-2.0>=34

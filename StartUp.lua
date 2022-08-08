@@ -1,7 +1,7 @@
 SYT = SYT or {}
 
 SYT.name = "ShutYerTrap"
-SYT.version = "35.7"
+SYT.version = "35.8"
 
 SYT.Chatter = {}
 

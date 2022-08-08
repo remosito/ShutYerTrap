@@ -109,7 +109,7 @@ function SYT.CreateSettings()
 			SYT.SV.Muted[SYT.Chatter[SYT.CurrentChoice][1]][SYT.Chatter[SYT.CurrentChoice][2]] = true 
 			table.remove(SYT.Chatter, SYT.CurrentChoice) 
 			table.remove(SYT.DropDown.choices,SYT.CurrentChoice) 
-			table.remove(SYT.DropDown.choicesValues,SYT.CurrentChoice) 
+			table.remove(SYT.DropDown.choicesValues) 
 		end,  
 		disabled = function() return #SYT.Chatter == 0 end,
 		width = "half", 
