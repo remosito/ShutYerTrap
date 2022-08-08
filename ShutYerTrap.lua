@@ -82,7 +82,6 @@ end
 
 local function OnPlayerActivated(_, initial)
 
-	pDebug("onplayeractivated")
 	ZO_PreHook(CHAT_ROUTER, "FormatAndAddChatMessage", OnChatMsg)
 	EVENT_MANAGER:UnregisterForEvent(SYT.name, EVENT_PLAYER_ACTIVATED)
 end
@@ -91,7 +90,6 @@ end
 local function OnAddOnLoaded(event, addonName)
 
     if addonName ~= SYT.name then return end
-	pDebug("onaddonloaded")
 	SYT.SV = ZO_SavedVars:NewAccountWide("SYTVars", 1, nil, nil, GetWorldName(), nil)
 	if not SYT.SV.Muted then SYT.SV.Muted = {} end
 	SYT.CreateSettings()

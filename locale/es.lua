@@ -10,5 +10,17 @@ SYT.S_SETTINGS_MUTENPC_TOOLTIP = "Cera la boca al NPC por todos conversaciones"
 SYT.S_SETTINGS_MUTEDIALOGUE_NAME = "Callate Conversacion"
 SYT.S_SETTINGS_MUTEDIALOGUE_TOOLTIP = "Cera la boca al NPC por la conversacion selectado solamente"
 
-SYT.S_SETTINGS_SAVEDVARS_HEADER = "Lista de dialogos callatos y desenmudecerlo"
-SYT.S_SETTINGS_SAVEDVARS_DESCRIPTION = "Hasta que tengo bueno idea y el tiempo para implementarla. Por favor midifican el fichero saved variables de ShutYerTrap"
+SYT.S_SETTINGS_SAVEDVARS_HEADER = "Desenmudecer"
+SYT.S_SETTINGS_SAVEDVARS_DESCRIPTION = "Selecionen un NPC/conversacions a desenmudecer"
+
+SYT.S_SETTINGS_UNMUTENPC_DROPDOWN_NAME = "NPCs"
+SYT.S_SETTINGS_UNMUTENPC_DROPDOWN_TOOLTIP = "Selecionen NPC"
+
+SYT.S_SETTINGS_UNMUTEDIALOGUE_DROPDOWN_NAME = "Dialogo"
+SYT.S_SETTINGS_UNMUTEDIALOGUE_DROPDOWN_TOOLTIP = "Selecionen Dialogo"
+
+SYT.S_SETTINGS_UNMUTENPC_NAME = "Desenmudecer NPC"
+SYT.S_SETTINGS_UNMUTENPC_TOOLTIP = "Desenmudecer todos dialogos de este NPC"
+
+SYT.S_SETTINGS_UNMUTEDIALOGUE_NAME = "Desenmudecer Dialogo"
+SYT.S_SETTINGS_UNMUTEDIALOGUE_TOOLTIP = "Desenmudecer dialogo selecionnado"
